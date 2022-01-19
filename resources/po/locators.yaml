@@ -1,0 +1,5 @@
+link:
+  home: 
+    search_input: id=query
+    search_start: id=search
+    
