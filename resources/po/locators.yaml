@@ -2,4 +2,10 @@ link:
   home: 
     search_input: id=query
     search_start: id=search
-    
+    search_options: id=search-options
+    search_advance: id=advanced-search-link
+  advance_search:
+    title: id=title-is
+    results:
+      list: id=results-list
+      list_item_1: css=ol[id='results-list'] > li[1] > h2 > a
