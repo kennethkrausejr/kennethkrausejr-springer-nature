@@ -1,7 +1,9 @@
-
+*** Settings ***
+Library         SeleniumLibrary
 
 ***Keywords ***
 a browser is opened to the home page
+    goto  https://link.springer.com/
     log  a browser is opened to the home page
 
 a user searches for a topic

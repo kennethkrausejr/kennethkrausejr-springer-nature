@@ -1,5 +1,8 @@
 *** Settings ***
-Resource    ../resources/search.robot
+Resource        ../resources/common.robot
+Resource        ../resources/search.robot
+Test Setup      Begin Web Test  chrome
+Test Teardown   End Web Test
 
 *** Test Cases ***
 Find article using search and refine
