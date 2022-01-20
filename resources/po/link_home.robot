@@ -13,5 +13,5 @@ Fill In "Search Query" Field
     input text  ${link.home.search_input}  ${search_string}
 
 Click On "Search" Button
-    wait until element is visible  ${link.home.search_button}
-    click element  ${link.home.search_button}
+    wait until element is visible  ${link.home.search_start}
+    click element  ${link.home.search_start}
