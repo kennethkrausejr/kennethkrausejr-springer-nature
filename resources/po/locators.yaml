@@ -6,6 +6,7 @@ link:
     search_advance: id=advanced-search-link
   advance_search:
     title: id=title-is
+    search: id=submit-advanced-search
     results:
       list: id=results-list
-      list_item_1: css=ol[id='results-list'] > li[1] > h2 > a
+      list_item_1: xpath=//*[@id="results-list"]/li[1]/h2/a

@@ -15,3 +15,12 @@ Fill In "Search Query" Field
 Click On "Search" Button
     wait until element is visible  ${link.home.search_start}
     click element  ${link.home.search_start}
+
+Click On "Search Options" Image
+    wait until element is visible  ${link.home.search_options}
+    click element  ${link.home.search_options}
+
+Click On "Advance Search" Link
+    Click On "Search Options" Image
+    wait until element is visible  ${link.home.search_advance}
+    click element  ${link.home.search_advance}
